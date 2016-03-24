@@ -1,11 +1,11 @@
 // code adapted from https://www.mapbox.com/mapbox.js/example/v1.0.0/markers-with-image-slideshow/
 
 L.mapbox.accessToken =
-	'pk.eyJ1IjoidnVsaWJyYXJ5Z2lzIiwiYSI6ImFaN2JkSlUifQ.Dl2sTO1mGKK7MCd1ViGPnQ';
+	'pk.eyJ1IjoiajFjY2gwMSIsImEiOiJjaW02am51MzgwMmFndGttMzdjbm5ob3V2In0.Uk7-uWXHAFXTgX0BMxSyvQ';
 
 // If you do not have a Mapbox key, refer to the readme.md
-var map = L.mapbox.map('map', "vulibrarygis.of23e6p0").setView([52.51, 13.38],
-	12);
+var map = L.mapbox.map('map', "vulibrarygis.of23e6p0").setView([54.51, 13.38],
+	11);
 var layer = L.mapbox.featureLayer().addTo(map)
 
 // Add custom popup html to each marker
